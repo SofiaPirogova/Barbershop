@@ -1,0 +1,52 @@
+.text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--light-main-text-color);
+
+  &.accent-text {
+    line-height: 1.4;
+    color: var(--accent-color);
+  }
+
+  &.text-bigger {
+    font-size: 16px;
+    line-height: 1.6;
+    &.more-text-bigger {
+      font-size: 18px;
+    }
+  }
+
+  &.second-text {
+    line-height: 2.1;
+    color: var(--second-text-color);
+  }
+}
+// bold
+.bold-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+
+  &.second-text-color {
+    color: var(--second-text-color);
+  }
+  &.uppercase-text {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    &.white-uppercase-text {
+      color: var(--white-color);
+    }
+    &.rgba-uppercase-text {
+      color: var(--inpit-border-color);
+    }
+  }
+}
+
+.dark-text {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
